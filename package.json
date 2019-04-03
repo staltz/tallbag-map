@@ -1,0 +1,27 @@
+{
+  "name": "tallbag-map",
+  "version": "1.0.0",
+  "description": "Tallbag operator that applies a transformation on data passing through it",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/tallbag-map.git"
+  },
+  "main": "readme.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag",
+    "tallbag"
+  ],
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "shadow-callbag": "~1.0.0",
+    "tallbag": "~1.2.0"
+  }
+}
